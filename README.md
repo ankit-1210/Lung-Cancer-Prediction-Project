@@ -48,3 +48,11 @@ NO = 1)
 = 2, NO = 1) 
 ❖ CHEST_PAIN: Presence of chest pain (YES = 2, NO = 1) 
 ❖ LUNG_CANCER: Presence of lung cancer (YES, NO) 
+
+# SVM Method in Lung Cancer Prediction Project
+
+The Support Vector Machine (SVM) method is a supervised machine learning algorithm used in the Lung Cancer Prediction Project to classify lung cancer into malignant and benign. SVM works by identifying key samples (support vectors) from all classes and separating them by developing a function that separates them as widely as feasible using these support vectors.
+
+# How SVM Works
+
+An SVM classifier divides a collection of training vectors into two pairs of data points (_x_1, _y_1), (_x_2, _y_2), …(x__m, y__m) where xi∈Rd signifies vectors in a d-dimensional feature space and _y__i_∈{−1, +1} is a class label. The SVM model is created by translating the input vectors onto a new higher dimensional feature space designated as F:R__d_→_H__d′, where d < d′.
